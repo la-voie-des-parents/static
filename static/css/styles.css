@@ -1,0 +1,88 @@
+.diagnostic-popup {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.diagnostic-popup:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.diagnostic-popup h3 {
+    margin-top: 0;
+}
+
+.diagnostic-popup .button1 {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.modal-content {
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-header .close {
+    margin-top: -10px;
+}
+
+.modal-body {
+    padding-top: 0;
+}
+
+.modal-body .button1 {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.diagnostic-alert {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.diagnostic-alert .alert-content {
+    position: relative;
+}
+
+.diagnostic-alert .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.diagnostic-alert h5 {
+    margin-top: 0;
+}
+
+.diagnostic-alert .button1 {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
